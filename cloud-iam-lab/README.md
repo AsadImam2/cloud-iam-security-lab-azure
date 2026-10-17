@@ -114,6 +114,20 @@ Recommended screenshots for the project repository:
 ## 8. Findings and Lessons Learned
 
 - Permissions can be managed centrally through security groups.
+
+- ## Evidence Screenshots
+
+### 1. Identity Lifecycle Audit Logs
+![Identity Lifecycle Audit Logs](evidence/identity-lifecycle-audit-logs.png)
+
+### 2. Azure RBAC Role Assignment
+![Azure RBAC Role Assignment](evidence/azure-rbac-role-assignment.png)
+
+### 3. Group Members After Access Revocation
+![Group Members After Revocation](evidence/group-members-after-revocation.png)
+
+### 4. Access Revocation Audit Details
+![Access Revocation Audit Details](evidence/removal-log-details.png)
 - Azure RBAC role assignments have defined scopes.
 - Removing a user from a group does not automatically delete the group's role assignment.
 - Group membership changes can affect a user's effective permissions.
